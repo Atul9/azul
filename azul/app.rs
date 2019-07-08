@@ -34,13 +34,13 @@ use {
 use azul_core::{
     ui_solver::ScrolledNodes,
     window::WindowId,
+    ui_description::UiDescription,
 };
 pub use app_resources::AppResources;
 
 #[cfg(not(test))]
 use azul_core::{
     window::FakeWindow,
-    ui_description::UiDescription,
 };
 #[cfg(not(test))]
 use window::{ FakeDisplay, WindowCreateOptions };
